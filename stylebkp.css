@@ -1,0 +1,81 @@
+.col-9 .img-icon {
+    display: flex;
+    justify-content: center;
+    width: 101px;
+    top: 50%;
+    right: 50%;
+}
+
+.col-9 .img-plus {
+    width: 50px;
+    float: right;
+    margin-right: 17px;
+    height: 51px;
+    position: relative;
+    top: -101px;
+}
+
+.fundo {
+    background-repeat: no-repeat;
+}
+
+/* Rotate CardsList */
+.col-9 .rotate:hover {
+    transform: rotate(15deg);
+    transition: all 0.50s;
+}
+
+/* title subtitle card */
+.title-card .sub-title-card {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.title-card {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.sub-title-card {
+    font-size: 16px;
+    color: #666;
+}
+
+/* end title subtitle card */
+
+
+
+.br-card .box .card-size {
+    width: 250px !important;
+    height: 370.83px !important;
+}
+
+.br-card .box .card-size {
+    height: 350px !important;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+@keyframes slideUp {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
